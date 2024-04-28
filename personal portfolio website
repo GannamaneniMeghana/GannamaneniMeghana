@@ -1,0 +1,507 @@
+personal portfolio website:
+html:
+<!DOCTYPE html>
+<html>
+    <title>codealpha</title>
+<head>
+    <link rel="stylesheet" href="codealpha.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+<body>
+    <div class="header">
+     <a href="#"class="logo">Portfolio</a>
+        <nav class="num1">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Skill</a>
+        <a href="#">Contact</a>
+        </nav>
+    </div>
+    <section class="num2">
+        <div class="chinni">
+            <h2>Hello,It's Me</h2>
+            <h1>Gannamaneni Meghana</h1>
+            <p>I'm a WED DESIGNER has beginner.
+                <br>this is my first intership in wed designer.</p>
+            <div class="num3">
+                <a href="#"><i class='bx bxl-facebook'></i></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="#"><i class='bx bxl-whatsapp'></i></a>
+            </div>
+            <div>
+                <a href="#" class="num4">More About Me</a>
+            </div>
+        </div>
+        <div class="images">
+            <img src="girl2.jpg" class="girl">
+        </div>
+        <span class="null1"></span>
+    </section>
+    <section class="about" id="about">
+        <div class="about-text">
+            <h1>ABOUT<span>ME</span></h1>
+            <h2>Wed Developer</h2>
+             <p>As a beginner web developer, diving into the world of coding and creating websites can feel like stepping into a vast, unknown universe. Every line of code I write feels like a step forward, but I'm constantly aware of how much more there is to learn.
+                One thing that's become clear to me early on is the importance of user experience. It's not just about making things look pretty (though that's part of it), but it's about creating websites that are intuitive and enjoyable for people to use.
+                I've been experimenting with different projects, from simple personal websites to more complex web applications. With each project, I try to put myself in the shoes of the user. How easy is it to navigate? Are the buttons where they should be? Does the layout make sense?
+                Getting feedback from others has been incredibly helpful. Whether it's friends and family or fellow developers in online communities, hearing what other people think of my work helps me see things from a different perspective. </p>
+            <h2>Graphic designer</h2>
+            <p>As a user engaging with graphic design, I find myself constantly drawn to captivating visuals that tell a story or convey a message effectively. Whether I'm browsing through a website, flipping through a magazine, or scrolling through social media, it's the designs that catch my eye and make me stop to take a closer look.
+                One of the things I appreciate most about graphic design is its ability to evoke emotion and provoke thought. A well-designed logo can instantly communicate the essence of a brand, while a beautifully crafted infographic can make complex information easy to understand and digest. It's this power of visual communication that I find truly inspiring.
+                As a user, I also value simplicity and clarity in design. A cluttered layout or overly complicated graphics can be overwhelming and off-putting. I appreciate designs that are clean, intuitive, and easy to navigate. </p>
+
+
+
+                <a href="#" class="num4">More About Me</a>
+        </div>
+    </section>
+    <script src="main.js"></script>
+    <section>
+        <div class="skill" id="skill">
+            <h1 class="sub-title">MY <span>SKILLS</span></h1>
+            <div class="skill-bars">
+                <div class="bar"><i class='bx bxl-html5' class="num3"></i>
+                      <div class="info" style="color: yellow;">
+                        <span>HTML</span>
+                      </div>
+                      <div class="progress-line html" >
+                        <span></span></div>
+                </div>
+                <div class="bar"><i class='bx bxl-css3' class="num3"></i>
+                  <div class="info" style="color: purple;">
+                    <span>CSS</span>
+                  </div>
+                  <div class="progress-line css" >
+                    <span></span></div>
+                </div>
+                <div class="bar"><i class='bx bx-edit-alt' class="num3" ></i>
+                    <div class="info" style="color: green;">
+                     <span>Graphic designer</span>
+                    </div>
+                   <div class="progress-line Graphicdesigner" >
+                     <span></span></div>
+              </div>
+            </div>
+        </div>
+    </section>
+    <table id="contact"  width="100%" margin="10px"
+		cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<table cellpadding="15"
+					cellspacing="0" width="80%" align="center">
+					<tr>
+						<td height="180" align="center"
+							valign="middle" colspan="2">
+							<font face="Verdana" size="7"
+								color="aqua">
+								Contact
+							</font>
+							<hr color="black" width="90">
+						</td>
+					</tr>
+                     
+					<tr>
+						<td align="center" valign="top">
+							<table  width="50%" cellpadding="15"
+								cellspacing="0" align="center" >
+								<div class="good"><tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											Name
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="text" size="40">
+										</font>
+									</td>
+								</tr></div>
+                                <div class="good">
+								<tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											Email
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="email" size="40">
+										</font>
+									</td>
+								</tr></div>
+								<div class="good"><tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											Number
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<input type="number" size="12">
+										</font>
+									</td>
+								</tr></div>
+								<div class="good"><tr>
+									<td width="30%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											Message
+										</font>
+									</td>
+									<td width="70%">
+										<font face="Verdana" size="4"
+											color="#ffffff">
+											<textarea rows="5"
+												cols="37">
+											</textarea>
+										</font>
+									</td>
+								</tr></div>
+								<div class="good"><tr>
+									<td width="30%">
+										
+									</td>
+									<td width="70%">
+										<button type="Submit">
+											<font face="Verdana"
+												size="4" color="black">
+												<b>Submit</b>
+											</font>
+										</button>
+									</td>
+								</tr></div>
+							</table>
+						</td>
+
+					</tr>
+					<tr>
+						<td colspan="2">
+							
+							
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+    <table id="footer"  width="100%" style="color: aqua;"
+		cellpadding="0" cellspacing="0">
+		<tr>
+			<td>
+				<table  cellpadding="15" s
+					cellspacing="0" width="90%" align="center">
+					<tr>
+						<td width="13%" valign="top">
+							<b>LinkedIn</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>GitHub</b>
+							<a href="#" style="text-decoration:none">
+								➲ 
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+
+						<td width="13%" valign="top">
+							<b>Twitter</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>Instagram</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>Email</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+
+						<td>
+							|
+						</td>
+
+						<td width="13%" valign="top">
+							<b>Website</b>
+							<a href="#" style="text-decoration:none">
+								➲
+							</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
+css:
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    color: rgb(252, 252, 248);
+    background: rgb(24, 1, 56) ;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+.logo{
+    position: relative;
+    font-size: 35px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+    cursor: default;
+    
+   
+}
+.num1 a {
+    display: inline-block;
+    font-size: 30px;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+}
+.num1 a:hover {
+    color: aqua;
+}
+.num2{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+    background: rgb(24, 1, 56);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+
+}
+.bar{
+    font-size: 23px;
+}
+
+.images{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+.images img{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+}
+.girl{
+    border-radius: 50%;
+    width:550px;
+    height:200px ;
+    margin-top :50px;
+    padding: 110px;
+    box-shadow: 0 0 50px #0ef;
+
+}
+.chinni{
+    max-width: 600px;
+}
+.chinni h2{
+    font-size: 32px;
+    font-weight: 700;
+   
+}
+.chinni h1 {
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+    font-style: oblique;
+}
+.chinni p {
+    font-size: 20px;
+}
+.num3 a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+    margin: 30px 15px 30px 0;
+
+}
+.num3 a:hover{
+    background: #0ef;
+    color: black;
+    box-shadow: 0 0 20px #0ef;
+
+}
+.num4 {
+    display: inline-block;
+    padding: 12px 20px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+    box-shadow: 0 0 5px #0ef;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12% 8%;
+    gap: 10rem;
+}
+.about-text h2{
+    font-size: 30px;
+}
+.about-text span{
+    color: #0ef;
+}
+.about-text h2 span{
+    color: #0ef;
+}
+.about-text h1{
+    font-size: 60px;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.skill{
+    width: 600px;
+    height: 500px;
+    padding: 75px 90px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.sub-title{
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+.skill h1{
+    font-size: 60px;
+}
+.sub-title span{
+    color: #0ef;
+}
+.bar{
+    font-size: 23px;
+}
+.skill-bars .bar{
+    margin-top: 40px 0;
+}
+.skill-bars .bar:first-child{
+    margin-top: 0;
+}
+.skill-bars .bar:last-child{
+    margin-bottom: 0;
+}
+.skill-bars .bar .info{
+    margin-bottom: 5px;
+}
+.skill-bars .bar .info span{
+    font-size: 17px;
+    font-weight: 500;
+}
+.skill-bars .bar .progress-line{
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: black;
+}
+.skill-bars .bar .progress-line span{
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    
+}
+.progress-line.html span{
+    width: 90%;
+}
+.progress-line.css span{
+    width: 60%;
+}
+.progress-line.Graphicdesigner span{
+    width: 100%;
+}
+.progress-line span::after{
+    position: absolute;
+    padding: 1px 8px;
+    background-color: #000;
+    color: #ffff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+}
+table{
+    margin: 20px ;
+    padding: 10px;
+}
