@@ -1,0 +1,239 @@
+expenses tracker
+html code:
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="codealpha1.css">
+</head>
+<body>
+    <header>
+        <h1>Expense Tracker</h1>
+    </header>
+
+    <section id="add-expenses">
+        <h2>Add Expense</h2>
+        <form id="expenses-form">
+            <label for="expenses-name">Name:</label>
+            <input type="text" id="expenses-name" name="expenses-name" required>
+
+            <label for="expenses-amount">Amount:</label>
+            <input type="number" id="expenses-amount" name="expenses-amount" required>
+
+            <label for="date-input">Date:</label>
+            <input type="date" id="date-input">
+
+            <button id="add-Btn">Add Expense</button>
+        </form>
+    </section>
+
+    <section id="expenses">
+        <h2>Expenses List</h2>
+        <ul id="expenses-list"></ul>
+        <table>
+            <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Amount</th>
+                        <th>Date</th>
+                        <th>Delete</th>
+                    </tr>
+            </thead>
+            <tbody id="expenses-table-body">
+
+            </tbody>
+            <tfoot>
+                <td>Total:</td>
+                <td id="total-amount"></td>
+                <td></td>
+                <td></td>
+            </tfoot>
+        </table>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Expense Tracker</p>
+    </footer>
+
+    <script src="codealpha1.js"></script>
+</body>
+</html>
+css code:
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #560247;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+}
+h2{
+    text-align: center;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    padding: 5px;
+}
+
+button {
+    background-color: #560247;
+    color: #f9f4f9;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #560247;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #560247;
+    color: #fefafd;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+th{
+    background-color: #560247;
+    color:white;
+}
+tfoot{
+    font-weight: bold;
+}
+.delete-btn{
+    background-color: #560247;
+    color: #f9f4f9;
+    border: none;
+    cursor: pointer;
+}
+javascript:
+let expenses =[];
+let totalAmount = 0;
+
+const expensesname=document.getElementById('expenses-name')
+const expensesamount=document.getElementById('expenses-amount')
+const dateinput=document.getElementById('date-input')
+const addBtn=document.getElementById('add-Btn')
+const expensestablebody=document.getElementById('expenses-table-body')
+const totalAmountcell=document.getElementById('total-amount')
+
+addBtn.addEventListener('click',function(){
+    const name = expensesname.Value;
+    const Amount = Number(amountInput.value)
+    const date=dateinput.value;
+    
+    if(name===''){
+        alert('please enter name');
+        return;
+    }
+    if(isNaN(Amount) || Amount<=0){
+        alert('please enter a valid amount');
+        return;
+    }
+    if(date===''){
+        alert('please enter a date');
+        return;
+    }
+    expenses.push({name,Amount,date})
+
+    totalAmount += Amount;
+    totalAmountcell.textContent=totalAmount;
+
+    const nemRow = expensestablebody.insertRow();
+
+    const namecell = nemRow.insertcell();
+    const amountcell = nemRow.insertcell();
+    const datecell = nemRow.insertcell();
+    const deletecell = nemRow.insertcell();
+
+    const deleteBtn = document.createElement('button');
+
+    deleteBtn.textContent = 'Delete';
+    deleteBtn.classList.add('delete-btn');
+    deleteBtn.addEventListener('click',function(){
+        expenses.splioce(expenses.indexOf(expenses),1);
+
+        totalAmount-= expenses.amount;
+        totalAmountcell.textContent = totalAmount;
+
+        expensestablebody.removeChild(nemRow);
+    })
+    const expenses = expenses[expenses.length-1];
+    namecell.textContent=expenses.name;
+    amountcell.textContent=expenses.amount;
+    datecell.textContent=expenses.date;
+    deletecell.appendchild(deleteBtn);
+
+});
+for(const expenses of expenses){
+
+    totalAmount += Amount;
+    totalAmountcell.textContent=totalAmount;
+
+    const nemRow = expensestablebody.insertRow();
+
+    const namecell = nemRow.insertcell();
+    const amountcell = nemRow.insertcell();
+    const datecell = nemRow.insertcell();
+    const deletecell = nemRow.insertcell();
+
+    const deleteBtn = document.createElement('button');
+
+    deleteBtn.textContent = 'Delete';
+    deleteBtn.classList.add('delete-btn');
+    deleteBtn.addEventListener('click',function(){
+        expenses.splioce(expenses.indexOf(expenses),1);
+
+        totalAmount-= expenses.amount;
+        totalAmountcell.textContent = totalAmount;
+
+        expensestablebody.removeChild(nemRow);
+    })
+    const expenses = expenses[expenses.length-1];
+    namecell.textContent=expenses.name;
+    amountcell.textContent=expenses.amount;
+    datecell.textContent=expenses.date;
+    deletecell.appendchild(deleteBtn);
+};
