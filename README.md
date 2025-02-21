@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @GannamaneniMeghana
-- 👀 I’m interested in WED DEVELOPER and GRRAPHIC DESIGNER.
-- 🌱 I’m currently learning BTECH 1st YEAR,
+- 👀 I’m interested in FRONTEND DEVELOPER and GRRAPHIC DESIGNER and UI/UX DESIGNER.
+- 🌱 I’m currently learning BTECH 2st YEAR,
 - 📫 How to reach me LINKEDIN:https://www.linkedin.com/in/gannamaneni-meghana-224b5a290?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app
 
 <!---
